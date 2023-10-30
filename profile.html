@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>profile-page social book</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png"></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+        <div class="nav-right">
+            <div class="search-box">
+               <img src="images/search.png">
+                <input type="text" placeholder="Search">
+            </div>
+            <div class="nav-user-icon online" onclick="settingsMenuToggle()">
+                <img src="images/profile-pic.png">
+            </div>
+        </div>
+        
+        <!-------settings menu-------->
+        <div class="settings-menu">
+              
+              <div id="dark-btn">
+                  <span></span>
+              </div>
+              
+               <div class="settings-menu-inner">
+                <div class="user-profile">
+                    <img src="images/profile-pic.png">
+                    <div>
+                        <p>Uttam Darai</p>
+                       <a href="#">See Your profile</a>
+                    </div>
+                </div>
+                <hr>
+                 <div class="user-profile">
+                    <img src="images/feedback.png">
+                    <div>
+                        <p>Give Feedback</p>
+                       <a href="#">Help Us to improve new design</a>
+                    </div>
+                </div>
+                <hr>
+                <div class="settings-links">
+                    <img src="images/setting.png" class="settings-icon">
+                    <a href="#">Settings & privacy<img src="images/arrow.png" width="10px"> </a>
+                    
+                </div>
+                 <div class="settings-links">
+                    <img src="images/help.png" class="settings-icon">
+                    <a href="#">help & support<img src="images/arrow.png" width="10px"> </a>
+                    
+                </div>
+                
+                 <div class="settings-links">
+                    <img src="images/display.png" class="settings-icon">
+                    <a href="#">Display & Accesssibility<img src="images/arrow.png" width="10px"> </a>
+                    
+                </div>
+                 <div class="settings-links">
+                    <img src="images/logout.png" class="settings-icon">
+                    <a href="#">Logout <img src="images/arrow.png" width="10px"> </a>
+                    
+                </div>
+                
+                
+                </div>
+        </div>
+        
+    </nav>
+    <!---profile page------->
+    <div class="profile-container">
+        <img src="images/cover.png" class="cover-img">
+        <div class="profile-details">
+            <div class="pd-left">
+                <div class="pd-row">
+                    <img src="images/profile.png" class="pa-image">
+                    <div>
+                        <h3>Uttam Darai</h3>
+                        <p>120 friends -20 mutal</p>
+                    </div>
+                </div>
+            </div>
+            <div class="pd-right"></div>
+        </div>
+    </div>
+    
+    
+    
+    <div class="footer">
+        <p>Copyright 2021-Uttam Darai</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
